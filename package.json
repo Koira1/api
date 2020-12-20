@@ -1,0 +1,25 @@
+{
+    "name": "twotterpackage",
+    "version": "1.0.0",
+    "description": "twotterwhatuexpect",
+    "main": "server.js",
+    "dependencies": {
+        "cookie-parser": "^1.4.5",
+        "express": "^4.17.1",
+        "firebase": "^8.2.0",
+        "firebase-admin": "^9.4.2",
+        "nodemon": "^2.0.6"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.4",
+        "webpack": "^4.43.0"
+    },
+    "scripts": {
+        "build": "webpack",
+        "dev": "nodemon ./server.js localhost 3080",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
+    },
+    "author": "semirantanen",
+    "license": "ISC"
+}
